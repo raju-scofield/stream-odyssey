@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.egg
+*.env
+.env
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Django Migrations
+**/migrations/*
+!**/migrations/__init__.py
+
+# SQLite Database
+db.sqlite3
+*.sqlite3
+
+# Media Files
+media/
+*.mkv
+*.mp4
+*.avi
+
+# Static Files (collected in production)
+staticfiles/
+static/
+
+# Logs
+*.log
+
+# IDE Specific Files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# MacOS Specific
+.DS_Store
+
+# Node.js (if using npm/yarn for frontend)
+node_modules/
+package-lock.json
+yarn.lock
